@@ -64,6 +64,7 @@ public class Clock implements BufferManagerInterface
 
 	public static void main(String[] args) {
 
+		// Scenario where clock slower than LRU
 		Page p1 = new Page("B");
 		Page p2 = new Page("A");
 		Page p3 = new Page("C");
